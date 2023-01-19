@@ -5,7 +5,7 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				fira: ['Fira Code', 'monospace']
+				rubik: ['Rubik', 'sans-serif']
 			}
 		}
 	},

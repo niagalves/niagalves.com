@@ -1,1 +1,5 @@
-<h1>Hello!</h1>
+<script>
+	import Intro from './components/Intro/index.svelte';
+</script>
+
+<Intro />
