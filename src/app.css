@@ -6,5 +6,9 @@
 *,
 html,
 body {
-	@apply font-rubik font-normal text-gray-800;
+	@apply font-rubik font-normal text-left bg-zinc-900 text-slate-200;
+}
+
+p {
+	@apply md:text-lg text-base font-normal;
 }
