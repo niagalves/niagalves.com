@@ -7,22 +7,19 @@
 <Section>
 	<div class="flex justify-between md:flex-row flex-col items-center">
 		<img
-			class="w-36 md:w-44 mx-auto rounded-full md:h-44 h-36"
+			class="w-36 md:w-44 mx-auto rounded-full md:h-44 h-36 mb-8"
 			src="/niagalves.png"
 			alt="niagalves"
 		/>
 		<div>
-			<h1 class="font-bold text-6xl md:max-w-lg max-w-full leading-[60px] mb-8">
+			<h1 class="font-bold text-4xl md:text-6xl md:max-w-lg max-w-full lg:leading-[60px] mb-8">
 				Olá, eu sou o
 				<span class="text-cyan-400 font-bold">Niag Alves.</span>
 			</h1>
 			{#if list}
 				<ul class="inline-flex gap-4">
 					{#each list as item}
-						<li
-							class="hover:border-cyan-400 capitalize transition duration-700
-                ease-in-out border-transparent border-b-2 md:text-lg text-base font-normal"
-						>
+						<li class="capitalize font-normal text-base text-slate-400">
 							{item}
 						</li>
 					{/each}

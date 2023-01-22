@@ -20,7 +20,7 @@
 	];
 </script>
 
-<header class="p-4 max-w-4xl mx-auto flex justify-between items-center">
+<header class="p-4 max-w-4xl mx-auto flex justify-between items-center flex-wrap">
 	<a href="/" title="Início" class="flex items-center flex-row gap-1">
 		<span class="font-bold inline-flex">
 			Niag
@@ -36,8 +36,8 @@
 						<a
 							href={item.url}
 							title={item.title}
-							class="hover:border-cyan-400 capitalize transition duration-700
-            ease-in-out border-transparent border-b-2 text-sm font-medium"
+							class="hover:border-cyan-400 hover:text-white capitalize transition duration-700
+            ease-in-out border-transparent border-b-2 text-slate-400 text-sm font-medium"
 						>
 							{item.title}
 						</a>

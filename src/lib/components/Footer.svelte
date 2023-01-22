@@ -5,8 +5,8 @@
 			href="https://kit.svelte.dev/"
 			target="_blank"
 			rel="noreferrer"
-			class="hover:text-white transition duration-700
-    ease-in-out border-transparent border-b-2">SvelteKit</a
+			class="hover:border-cyan-400 hover:text-white capitalize transition duration-700
+      ease-in-out border-transparent border-b-2">SvelteKit</a
 		>
 		+
 		<a
@@ -14,8 +14,8 @@
 			href="https://tailwindcss.com/"
 			target="_blank"
 			rel="noreferrer"
-			class="hover:text-white transition duration-700
-    ease-in-out border-transparent border-b-2">Tailwind CSS</a
+			class="hover:border-cyan-400 hover:text-white capitalize transition duration-700
+      ease-in-out border-transparent border-b-2">Tailwind CSS</a
 		>.</small
 	>
 </footer>
