@@ -5,14 +5,18 @@
 
 <Section>
 	<Subtitle text="Sobre." />
+	<p class="mb-4">
+		Olá, meu nome Niag de Souza Alves, atuo com desenvolvimento web há mais de 5 anos e com projetos
+		de pequeno, médio e grande porte. Sou graduado em <strong class="text-cyan-400 font-medium"
+			>Análise e Desenvolvimento de Sistemas
+		</strong>
+		pela FAQI e pós graduado em
+		<strong class="text-cyan-400 font-medium">Engenharia da Computação</strong> pela Uninter.
+	</p>
 	<p>
-		Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad
-		nisi Lorem pariatur mollit ex esse exercitation amet. Nisi animcupidatat excepteur officia.
-		Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla
-		est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-		reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
-		proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua
-		reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat
-		ullamco ut ea consectetur et est culpa et culpa duis.
+		Tenho como referência minha facilidade de aprendizagem em novas tecnologias, boa comunicação
+		para realizar trabalhos em equipe e comprometimento com as entregas. Busco realizar uma
+		codificação de fácil entendimento, além de entregar para os usuários finais uma boa experiência
+		de uso com interfaces amigáveis e responsivas.
 	</p>
 </Section>
