@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Section from '$lib/components/Section.svelte';
 
-	const list: string[] = ['Desenvolvedor web.', 'Open source.', 'Freelancer.'];
+	const list: string[] = ['Desenvolvedor web.', 'Freelancer.', 'Open source.'];
 </script>
 
 <Section>

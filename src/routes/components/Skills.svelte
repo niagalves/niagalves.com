@@ -4,7 +4,7 @@
 </script>
 
 <Section>
-	<Subtitle text="Conhecimentos." />
+	<Subtitle text="Competências." />
 	<p>
 		Possuo conhecimentos em tecnologias como: JavaScript, TypeScript, NodeJS, MongoDB, SQL, ReactJS,
 		Angular 2+, VueJS, Svelte, SvelteKit, HTML5, CSS3, Display Flex e Grid, Bootstrap, Tailwind CSS,
