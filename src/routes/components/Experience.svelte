@@ -9,7 +9,7 @@
 		prev?: List[];
 	};
 
-	const list = [
+	const list: List[] = [
 		{
 			title: 'Desenvolvedor Front-end.',
 			company: 'Softdesign.',
