@@ -7,15 +7,15 @@
 	const list: List[] = [
 		{
 			title: 'Artigos',
-			url: '/'
+			url: '/articles'
 		},
 		{
 			title: 'Projetos',
-			url: '/'
+			url: '/projects'
 		},
 		{
 			title: 'Contato',
-			url: '/'
+			url: '/contact'
 		}
 	];
 </script>
@@ -47,3 +47,9 @@
 		{/if}
 	</nav>
 </header>
+
+<style lang="postcss">
+	.active {
+		@apply border-cyan-400 text-white;
+	}
+</style>
