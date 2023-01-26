@@ -1,10 +1,10 @@
 <script>
 	import Section from '$lib/components/Section.svelte';
-	import Subtitle from '$lib/components/Subtitle.svelte';
+	import Title from '$lib/components/Title.svelte';
 </script>
 
 <Section>
-	<Subtitle text="Sobre." />
+	<Title text="Sobre." type="h2" />
 	<p class="mb-4">
 		Olá, meu nome Niag de Souza Alves, atuo com desenvolvimento web há mais de 5 anos e com projetos
 		de pequeno, médio e grande porte. Sou graduado em <strong class="text-cyan-400 font-medium"

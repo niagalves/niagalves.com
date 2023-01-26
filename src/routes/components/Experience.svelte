@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Section from '$lib/components/Section.svelte';
-	import Subtitle from '$lib/components/Subtitle.svelte';
+	import Title from '$lib/components/Title.svelte';
 
 	type List = {
 		title: string;
@@ -36,7 +36,7 @@
 </script>
 
 <Section>
-	<Subtitle text="Expêriencias." />
+	<Title text="Expêriencias." type="h2" />
 	{#if list}
 		<ul class="inline-flex flex-col gap-4 w-full">
 			{#each list as item}

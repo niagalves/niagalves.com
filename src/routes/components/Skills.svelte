@@ -1,10 +1,10 @@
 <script>
 	import Section from '$lib/components/Section.svelte';
-	import Subtitle from '$lib/components/Subtitle.svelte';
+	import Title from '$lib/components/Title.svelte';
 </script>
 
 <Section>
-	<Subtitle text="Competências." />
+	<Title text="Competências." type="h2" />
 	<p>
 		Possuo conhecimentos em tecnologias como: JavaScript, TypeScript, NodeJS, MongoDB, SQL, ReactJS,
 		Angular 2+, VueJS, Svelte, SvelteKit, HTML5, CSS3, Display Flex e Grid, Bootstrap, Tailwind CSS,
