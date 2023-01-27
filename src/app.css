@@ -7,7 +7,6 @@ html {
 	@apply scroll-smooth;
 }
 
-*,
 html,
 body {
 	@apply font-rubik font-normal text-left bg-zinc-900 text-slate-200;

@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Safe Agro - Certificado Digital para Produtor Rural",
+		"url": "https://safeagro.safeweb.com.br/portal/#/",
+		"description": "E-commerce desenvolvido para facilitar a emissão de notas fiscais para produtor rural e pessoa física. Esse projeto foi desenvolvido com ReactJS e Bootstrap."
+	},
+	{
+		"title": "Adm-p - Administração sem papel",
+		"url": "https://adm-p.safeweb.com.br/portal/",
+		"description": "Projeto voltado para a área administrativa realizar suas tarefas sem a necessidade de utilizar papel no dia a dia. Esse projeto foi desenvolvido com AngularJS e Bootstrap."
+	},
+	{
+		"title": "Globalbot - Plataforma de Chatbot",
+		"url": "https://globalbot.com.br/",
+		"description": "Projeto de chatbot com missão de facilitar o atendimento de clientes. Atuei na primeira versão, desenvolvendo as telas do front-end utilizando as tecnologias HTML5, CSS3, Bootstrap e Jquery."
+	},
+	{
+		"title": "Federação Gaúcha de Taekwondo",
+		"url": "http://tkdgaucho.com.br/",
+		"description": "Participação da primeira versão do sistema administrativo onde fui responsável por desenvolver o gerador de carteirinhas para impressão e cadastros de academias. Esse projeto foi desenvolvido utilizando PHP."
+	}
+]
