@@ -7,8 +7,8 @@
 <Section>
 	<div class="flex justify-between md:flex-row flex-col items-center">
 		<img
-			class="w-36 md:w-44 rounded-full md:h-44 h-36 mb-8 relative top-[10px]"
-			src="/niagalves.png"
+			class="w-36 md:w-44 rounded-full md:h-44 h-36 mb-8 relative top-[15px]"
+			src="/profile/niagalves.jpg"
 			alt="niagalves"
 		/>
 		<div class="flex flex-col">
