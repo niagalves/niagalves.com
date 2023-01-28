@@ -9,7 +9,9 @@
   <meta name="description" content="Lista de projetos que atualmente estão em produção." />
   <meta name="robots" content="index, follow" />
 
-  <meta name="twitter:title" content="Niag Alves | Projetos" />
+  <meta name="twitter:title" content="Niag Alves | Projetos">
+  <meta name="twitter:description" content="Lista de projetos que atualmente estão em produção.">
+
   <meta property="og:title" content="Niag Alves | Projetos" />
   <meta property="og:description" content="Lista de projetos que atualmente estão em produção." />
   <meta property="og:url" content="https://niagalves.com/projects" />
