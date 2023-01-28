@@ -11,7 +11,7 @@
 			src="/niagalves.png"
 			alt="niagalves"
 		/>
-		<div>
+		<div class="flex flex-col">
 			<h1 class="font-bold text-4xl md:text-6xl md:max-w-lg max-w-full lg:leading-[60px] mb-8">
 				Olá, eu sou o
 				<span class="text-cyan-400 font-bold">Niag Alves.</span>
