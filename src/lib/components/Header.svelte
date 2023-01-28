@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+
 	type List = {
 		title: string;
 		url: string;
@@ -32,6 +34,7 @@
 						<a
 							href={item.url}
 							title={item.title}
+							class:active={$page.route.id?.split('/')[1].includes(item.url.split('/')[1])}
 							class="hover:border-cyan-400 hover:text-white capitalize transition duration-700
             ease-in-out border-transparent border-b-2 text-slate-400 text-sm font-medium"
 						>
@@ -43,3 +46,9 @@
 		{/if}
 	</nav>
 </header>
+
+<style lang="postcss">
+	.active {
+		@apply border-cyan-400 text-white;
+	}
+</style>
