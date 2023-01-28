@@ -1,8 +1,21 @@
-<script lang="ts">
+<script>
 	import Section from '$lib/components/Section.svelte';
 	import Title from '$lib/components/Title.svelte';
+
 	import projects from './projects.json';
 </script>
+
+<svelte:head>
+  <meta name="description" content="Lista de projetos que atualmente estão em produção." />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Niag Alves | Projetos" />
+  <meta property="og:description" content="Lista de projetos que atualmente estão em produção." />
+  <meta property="og:url" content="https://niagalves.com/projects" />
+  <meta property="og:site_name" content="Niag Alves | Projetos" />
+
+  <title>Niag Alves | Projetos</title>
+</svelte:head>
 
 <Section>
 	<Title text="Projetos." type="h2" />
