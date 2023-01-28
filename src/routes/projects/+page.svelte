@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import Section from '$lib/components/Section.svelte';
 	import Title from '$lib/components/Title.svelte';
 	import projects from './projects.json';
