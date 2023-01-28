@@ -9,7 +9,8 @@
   <meta name="description" content="Lista de todos os artigos escritos por mim até o momento." />
   <meta name="robots" content="index, follow" />
 
-  <meta property="og:title" content="Niag Alves | Projetos" />
+  <meta name="twitter:title" content="Niag Alves | Artigos" />
+  <meta property="og:title" content="Niag Alves | Artigos" />
   <meta property="og:description" content="Lista de todos os artigos escritos por mim até o momento." />
   <meta property="og:url" content="https://niagalves.com/articles" />
   <meta property="og:site_name" content="Niag Alves | Artigos" />

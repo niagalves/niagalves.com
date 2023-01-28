@@ -9,6 +9,7 @@
   <meta name="description" content="Um breve resumo sobre minha carreira profissional na área de desenvolvimento web." />
   <meta name="robots" content="index, follow" />
 
+  <meta name="twitter:title" content="Niag Alves | Página Início" />
   <meta property="og:title" content="Niag Alves | Início" />
   <meta property="og:description" content="Um breve resumo sobre minha carreira profissional na área de desenvolvimento web." />
   <meta property="og:url" content="https://niagalves.com/" />
