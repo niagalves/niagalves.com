@@ -11,12 +11,12 @@
 
 	const list: List[] = [
 		{
-			title: 'Desenvolvedor Front-end.',
+			title: 'Desenvolvedor Front-end sênior.',
 			company: 'Softdesign.',
 			date: 'Novembro/2020 até o momento.'
 		},
 		{
-			title: 'Desenvolvedor Front-end',
+			title: 'Desenvolvedor Front-end.',
 			company: 'Safeweb - Segurança da Informação.',
 			date: 'Outubro/2018 até Novembro/2020.',
 			prev: [
@@ -47,8 +47,8 @@
 					{#if item.prev}
 						{#each item.prev as prev}
 							<div class="ml-3 mt-3 flex flex-col">
-								<h4 class="font-normal text-sm">{prev.title}</h4>
-								<small class="font-normal text-xs">{prev.company}</small>
+								<h4 class="font-normal text-base">{prev.title}</h4>
+								<small class="font-normal text-sm">{prev.company}</small>
 								<time class="text-xs font-normal">{prev.date}</time>
 							</div>
 						{/each}
