@@ -11,7 +11,7 @@
 
 	const list: List[] = [
 		{
-			title: 'Desenvolvedor Front-end sênior.',
+			title: 'Desenvolvedor Front-end Sênior.',
 			company: 'Softdesign.',
 			date: 'Novembro/2020 até o momento.'
 		},
