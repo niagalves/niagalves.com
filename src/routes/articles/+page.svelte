@@ -1,24 +1,17 @@
 <script>
+  import Seo from '$lib/components/Seo.svelte';
+
 	import Section from '$lib/components/Section.svelte';
 	import Title from '$lib/components/Title.svelte';
 
 	import articles from './articles.json';
 </script>
 
-<svelte:head>
-  <meta name="description" content="Lista de todos os artigos escritos por mim até o momento." />
-  <meta name="robots" content="index, follow" />
 
-  <meta name="twitter:title" content="Niag Alves | Artigos">
-  <meta name="twitter:description" content="Lista de todos os artigos escritos por mim até o momento.">
-
-  <meta property="og:title" content="Niag Alves | Artigos" />
-  <meta property="og:description" content="Lista de todos os artigos escritos por mim até o momento." />
-  <meta property="og:url" content="https://niagalves.com/articles" />
-  <meta property="og:site_name" content="Niag Alves | Artigos" />
-
-  <title>Niag Alves | Artigos</title>
-</svelte:head>
+<Seo
+  title="Niag Alves | Artigos"
+  description="Lista de todos os artigos escritos por mim até o momento."
+  type="website" />
 
 <Section>
 	<Title text="Artigos." type="h1" />
