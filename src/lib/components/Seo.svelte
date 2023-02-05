@@ -11,18 +11,19 @@
 <svelte:head>
 	<title>{title}</title>
 	<meta name="description" content={description} />
-	{@html 
+	{@html
     `<script type="application/ld+json">
       {
         "@context": "http://schema.org",
-         "@type": "${type}",
-         "name": "${title}",
-         "description": "${description}",
-         "url": "${url}",
-          "author": {
-            "@type": "Person",
-            "name": "Niag Alves"
-       }
+        "@type": "${type}",
+        "name": "${title}",
+        "description": "${description}",
+        "url": "${url}",
+        "author": {
+          "@type": "Person",
+          "name": "Niag Alves"
+        }
+      }
      </script>`
     }
 </svelte:head>
