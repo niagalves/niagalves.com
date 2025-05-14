@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
 @import 'tailwindcss';
 
 @theme {
-	--font-merriweather: 'Merriweather', serif;
+	--font-heebo: 'Heebo', sans-serif;
 }
 
 html,
 body,
 table {
-	@apply font-merriweather bg-white text-base text-gray-700;
+	@apply font-heebo bg-white text-base text-gray-700;
 }
