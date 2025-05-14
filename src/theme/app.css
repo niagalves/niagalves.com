@@ -7,5 +7,5 @@
 html,
 body,
 table {
-	@apply font-playfair text-base text-black;
+	@apply font-playfair bg-white text-base text-gray-700;
 }
