@@ -17,7 +17,7 @@
 		<div class="mb-4 flex items-center justify-start">
 			<time datetime={date} class="text-xs font-normal">{date}</time>
 		</div>
-		<p class="text-base font-normal">
+		<p class="text-sm font-normal">
 			{description}
 		</p>
 	</a>
