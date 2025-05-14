@@ -3,10 +3,11 @@
 
 @theme {
 	--font-heebo: 'Heebo', sans-serif;
+	--color-primary: #ff6464;
 }
 
 html,
 body,
 table {
-	@apply font-heebo bg-white text-base text-gray-700;
+	@apply font-heebo scroll-smooth bg-white text-base text-black;
 }
