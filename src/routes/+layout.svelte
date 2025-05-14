@@ -6,6 +6,7 @@
 </script>
 
 <Header />
-<main class="my-8">
+<main class="min-h-[calc(100vh-130px)] w-full">
 	{@render children()}
 </main>
+<footer>ss</footer>

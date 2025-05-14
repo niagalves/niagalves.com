@@ -9,14 +9,16 @@
 	let { href, title, description, date }: Props = $props();
 </script>
 
-<article class="transition duration-300 hover:scale-[1.01]">
-	<a {href} class="block rounded-xl border border-gray-100 bg-white p-6 shadow-md" {title}>
-		<h4 class="mb-2 text-2xl font-black text-black">{title}</h4>
-		<p class="mb-4 text-sm font-medium">
+<article class="w-full max-w-full bg-white">
+	<a {href} class="block rounded-none border-0 bg-white p-6 shadow-none" {title}>
+		<h4 class="mb-2 text-2xl font-bold text-black">
+			{title}<span class="text-primary">.</span>
+		</h4>
+		<div class="mb-4 flex items-center justify-start">
+			<time datetime={date} class="text-xs font-normal">{date}</time>
+		</div>
+		<p class="text-base font-normal">
 			{description}
 		</p>
-		<div class="flex items-center justify-end">
-			<time datetime={date} class="text-sm font-medium">{date}</time>
-		</div>
 	</a>
 </article>
