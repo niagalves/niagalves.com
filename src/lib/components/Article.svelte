@@ -16,7 +16,7 @@
 			{description}
 		</p>
 		<div class="flex items-center justify-end">
-			<time datetime={date} class="text-base font-medium">{date}</time>
+			<time datetime={date} class="text-sm font-medium">{date}</time>
 		</div>
 	</a>
 </article>
