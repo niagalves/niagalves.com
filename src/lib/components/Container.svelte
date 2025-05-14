@@ -1,9 +1,7 @@
 <script lang="ts">
-	import '../theme/app.css';
-
 	let { children } = $props();
 </script>
 
-<main>
+<div class="mx-auto w-full max-w-4xl px-4">
 	{@render children()}
-</main>
+</div>

@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-playfair: 'Playfair Display', serif;
+}
+
+html,
+body,
+table {
+	@apply font-playfair text-base text-black;
+}
