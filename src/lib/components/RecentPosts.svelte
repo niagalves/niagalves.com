@@ -3,12 +3,10 @@
 	import Container from './Container.svelte';
 </script>
 
-<section id="posts" class="bg-[#EDF7FA] py-8">
+<section id="posts" class="bg-secondary py-8">
 	<Container>
 		<div class="w-full max-w-full text-center sm:text-left lg:text-left">
-			<h2 class="mb-8 text-lg font-normal">
-				Artigos recentes<span class="text-primary">.</span>
-			</h2>
+			<h2 class="mb-8 text-lg font-normal">Artigos recentes</h2>
 		</div>
 
 		<div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -26,6 +24,10 @@
 				date="21/04/2025"
 				href="/"
 			/>
+		</div>
+
+		<div class="text-center">
+			<a href="/blog" title="Blog" class="text-primary text-xs font-semibold"> Ver mais </a>
 		</div>
 	</Container>
 </section>
