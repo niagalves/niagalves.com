@@ -3,7 +3,7 @@ import type { PageLoad } from './$types';
 export const load: PageLoad = async () => {
 	try {
 		const res = await fetch(
-			'https://api.github.com/users/niagalves/repos?sort=updated&direction=desc&per_page=3'
+			'https://api.github.com/users/niagalves/repos?sort=created&direction=desc&per_page=3'
 		);
 
 		if (!res.ok) {
@@ -19,7 +19,7 @@ export const load: PageLoad = async () => {
 					name: repo.name,
 					description: repo.description,
 					href: repo.html_url,
-					date: new Date(repo.updated_at).toLocaleDateString('pt-BR')
+					date: new Date(repo.created_at).toLocaleDateString('pt-BR')
 				})) || [];
 
 		return { repositories };
