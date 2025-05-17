@@ -2,6 +2,7 @@
 title: "Meu Primeiro Post com mdsvex"
 date: "2025-05-16"
 slug: "meu-primeiro-post"
+description: "bla bla bla"
 ---
 
 # Olá, mundo! 🌍

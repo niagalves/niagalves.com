@@ -9,15 +9,24 @@
 	});
 
 	const fetchPosts = async (page: number = 1) => {
-		const res = await fetch(`/api/posts?page=${page}&pageSize=${values.pageSize}`);
-		const data = await res.json();
+		try {
+			const res = await fetch(`/api/posts?page=${page}&pageSize=${values.pageSize}`);
 
-		values = {
-			posts: data.posts,
-			page: data.page,
-			pageSize: data.pageSize,
-			totalPages: data.totalPages
-		};
+			if (!res.ok) {
+				throw new Error(`Erro na requisição: ${res.status} ${res.statusText}`);
+			}
+
+			const data = await res.json();
+
+			values = {
+				posts: data.posts,
+				page: data.page,
+				pageSize: data.pageSize,
+				totalPages: data.totalPages
+			};
+		} catch (error) {
+			console.error('Falha ao buscar posts:', error);
+		}
 	};
 
 	$effect(() => {

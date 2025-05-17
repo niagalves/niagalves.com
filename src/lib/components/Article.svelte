@@ -8,6 +8,10 @@
 		isExternal?: boolean;
 	};
 
+	const truncate = (text: string, maxLength: number): string => {
+		return text.length > maxLength ? text.slice(0, maxLength).trimEnd() + '...' : text;
+	};
+
 	let { href, title, description, date, isBg = false, isExternal = false }: Props = $props();
 </script>
 
@@ -20,13 +24,13 @@
 		rel={isExternal ? 'noopener noreferrer' : undefined}
 	>
 		<h4 class=" group-hover:text-primary mb-2 text-2xl font-bold text-black transition ease-in">
-			{title}
+			{truncate(title, 40)}
 		</h4>
 		<div class="mb-4 flex items-center justify-start">
 			<time datetime={date} class="text-xs font-normal">{date}</time>
 		</div>
 		<p class="text-sm font-normal">
-			{description || 'Nenhuma descrição disponível'}
+			{truncate(description, 80) || 'Nenhuma descrição disponível'}
 		</p>
 	</a>
 </article>
