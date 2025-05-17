@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import type { RequestHandler } from '@sveltejs/kit';
 
 export const config = {
-	runtime: 'nodejs'
+	runtime: 'nodejs18.x'
 };
 
 export const GET: RequestHandler = ({ url }) => {
