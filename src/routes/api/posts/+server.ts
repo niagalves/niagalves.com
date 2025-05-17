@@ -24,7 +24,7 @@ export const GET: RequestHandler = ({ url }) => {
 
 	allPosts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-	const totalPosts = allPosts.length;
+	const totalPosts = allPosts?.length;
 	const totalPages = Math.ceil(totalPosts / pageSize);
 
 	const start = (page - 1) * pageSize;
