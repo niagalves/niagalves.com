@@ -1,7 +1,0 @@
-{
-	"functions": {
-		"src/routes/api/**/*.ts": {
-			"runtime": "vercel-nodejs@18.0.0"
-		}
-	}
-}
