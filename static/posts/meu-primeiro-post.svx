@@ -1,0 +1,14 @@
+---
+title: "Meu Primeiro Post com mdsvex"
+date: "2025-05-16"
+slug: "meu-primeiro-post"
+---
+
+# Olá, mundo! 🌍
+
+Este é meu primeiro post usando **mdsvex** com **SvelteKit**.
+
+Você pode usar código também:
+
+```js
+console.log("Olá do mdsvex!");
