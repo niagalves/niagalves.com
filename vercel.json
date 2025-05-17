@@ -1,0 +1,7 @@
+{
+	"functions": {
+		"src/routes/api/**/+(server|index).ts": {
+			"runtime": "nodejs18.x"
+		}
+	}
+}
