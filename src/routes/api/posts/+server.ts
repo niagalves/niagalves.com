@@ -3,6 +3,10 @@ import path from 'path';
 import matter from 'gray-matter';
 import type { RequestHandler } from '@sveltejs/kit';
 
+export const config = {
+	runtime: 'nodejs'
+};
+
 export const GET: RequestHandler = ({ url }) => {
 	const page = parseInt(url.searchParams.get('page') || '1');
 	const pageSize = parseInt(url.searchParams.get('pageSize') || '5');
