@@ -15,7 +15,7 @@ const formatDate = (dateString: string): string => {
 export const GET: RequestHandler = async ({ url }) => {
 	try {
 		const page = parseInt(url.searchParams.get('page') || '1');
-		const pageSize = parseInt(url.searchParams.get('pageSize') || '5');
+		const pageSize = parseInt(url.searchParams.get('pageSize') || '10');
 
 		const postFiles = import.meta.glob('/static/posts/*.{md,svx}', {
 			query: '?raw',

@@ -6,7 +6,7 @@
 
 	const fetchPosts = async () => {
 		try {
-			const res = await fetch(`/api/posts?page=1&pageSize=2`);
+			const res = await fetch('/api/posts?page=1&pageSize=2');
 
 			if (!res.ok) {
 				throw new Error(`Erro na requisição: ${res.status} ${res.statusText}`);
@@ -38,6 +38,7 @@
 						description={item.description}
 						date={item.date}
 						href={`/blog/${item.slug}`}
+						isHoverWhite
 					/>
 				{/each}
 			</div>

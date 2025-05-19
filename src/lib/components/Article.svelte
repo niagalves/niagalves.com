@@ -6,19 +6,28 @@
 		date: string;
 		isBg?: boolean;
 		isExternal?: boolean;
+		isHoverWhite?: boolean;
 	};
 
 	const truncate = (text: string, maxLength: number): string => {
 		return text.length > maxLength ? text.slice(0, maxLength).trimEnd() + '...' : text;
 	};
 
-	let { href, title, description, date, isBg = false, isExternal = false }: Props = $props();
+	let {
+		href,
+		title,
+		description,
+		date,
+		isBg = false,
+		isExternal = false,
+		isHoverWhite = false
+	}: Props = $props();
 </script>
 
 <article class="group w-full max-w-full">
 	<a
 		{href}
-		class={`block rounded-none border-0  p-6 shadow-none ${isBg ? 'bg-secondary' : 'bg-white'} `}
+		class={` block rounded-md border-0 p-6 shadow-none ${isHoverWhite ? 'hover:bg-white' : 'hover:bg-secondary'} ${isBg ? 'bg-secondary' : 'bg-white'} `}
 		{title}
 		target={isExternal ? '_blank' : '_self'}
 		rel={isExternal ? 'noopener noreferrer' : undefined}
