@@ -3,11 +3,13 @@
 
 @theme {
 	--font-inter: 'Inter', sans-serif;
+	--color-primary: #18181b;
+	--color-secondary: #878787;
 }
 
 @layer base {
 	html,
 	body {
-		@apply font-inter text-base;
+		@apply bg-white font-inter text-base text-secondary;
 	}
 }
