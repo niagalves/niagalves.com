@@ -1,9 +1,7 @@
 <script>
-	import Container from "$lib/components/Container.svelte";
+	import Intro from "$lib/components/Intro.svelte";
 
 </script>
-
-<Container>
-  page
-
-</Container>
+<section class="py-6 max-w-4xl mx-auto w-full px-4">
+  <Intro />
+</section>
